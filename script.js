@@ -1,1 +1,3 @@
-// Add code here...
+$('button').on('click', function() {
+  console.log($(this).text());
+});
